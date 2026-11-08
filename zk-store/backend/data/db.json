@@ -1,0 +1,121 @@
+{
+  "coupons": [
+    {
+      "code": "ZK10",
+      "percent": 10,
+      "minSpend": 0,
+      "label": "10% Exclusive Luxury Privilege"
+    },
+    {
+      "code": "ZKLUXURY10",
+      "percent": 10,
+      "minSpend": 0,
+      "label": "10% Exclusive Luxury Privilege"
+    },
+    {
+      "code": "WELCOMEZK",
+      "amount": 500,
+      "minSpend": 3000,
+      "label": "Rs. 500 Welcome Voucher"
+    },
+    {
+      "code": "VIP500",
+      "amount": 500,
+      "minSpend": 4000,
+      "label": "Rs. 500 VIP Privilege"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ZK-89421",
+      "date": "November 03, 2026",
+      "status": "In Transit",
+      "carrier": "TCS Express Prime",
+      "trackingNumber": "TCS-90234812PK",
+      "estimatedDelivery": "November 08, 2026",
+      "items": [
+        {
+          "id": "ZK-M01",
+          "name": "Premium Oversized T-Shirt",
+          "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+          "color": "Black",
+          "size": "L",
+          "price": 3999,
+          "quantity": 1
+        },
+        {
+          "id": "ZK-M13",
+          "name": "Premium Bomber Jacket",
+          "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=600&q=80",
+          "color": "Olive Green",
+          "size": "L",
+          "price": 11999,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 15998,
+      "discount": 1599,
+      "shipping": 0,
+      "total": 14399,
+      "paymentMethod": "Cash on Delivery",
+      "shippingAddress": {
+        "fullName": "Daniyal Ahmed",
+        "phone": "+92 300 1234567",
+        "email": "daniyal.ahmed@example.com",
+        "address": "Bungalow 42-B, Khyaban-e-Shahbaz, DHA Phase 6",
+        "city": "Karachi",
+        "postalCode": "75500",
+        "country": "Pakistan"
+      },
+      "steps": [
+        {
+          "title": "Order Confirmed",
+          "date": "Nov 03, 10:30 AM",
+          "completed": true,
+          "current": false
+        },
+        {
+          "title": "Atelier Quality Inspection",
+          "date": "Nov 04, 02:15 PM",
+          "completed": true,
+          "current": false
+        },
+        {
+          "title": "Dispatched via TCS Express",
+          "date": "Nov 05, 09:00 AM",
+          "completed": true,
+          "current": true
+        },
+        {
+          "title": "Out for Delivery",
+          "date": "Expected Nov 07",
+          "completed": false,
+          "current": false
+        },
+        {
+          "title": "Delivered",
+          "date": "Expected Nov 08",
+          "completed": false,
+          "current": false
+        }
+      ]
+    }
+  ],
+  "messages": [],
+  "subscribers": [
+    "concierge@zkstore.luxury",
+    "vip.patron@example.com"
+  ],
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "Daniyal Ahmed",
+      "email": "daniyal.ahmed@example.com",
+      "phone": "+92 300 1234567",
+      "city": "Karachi",
+      "address": "Bungalow 42-B, Khyaban-e-Shahbaz, DHA Phase 6",
+      "postalCode": "75500",
+      "role": "VIP Patron"
+    }
+  ]
+}
